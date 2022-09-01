@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  margin-top: 70px;
+}
+.grey-color{
+  color: grey;
+}
+.text-center {
+  text-align: center;
+}
+.textfieldCls{
+  width: 100%;
+  padding: 0px;
+  border: 1px solid lightgrey;
+  height: 35px;
+}
+.margin-t-30{
+  margin-top: 30px;
+}
+.margin-t-40{
+  margin-top: 40px;
+}
+.margin-b-10{
+  margin-bottom: 10px;
+}
+.margin-b-20{
+  margin-bottom: 20px;
+}
+.margin-b-40{
+  margin-bottom: 40px;
+}
+.buttonCls{
+  width: 100%;
+  background-color: #603bda;
+  color: #fff;
+  border: none;
+  padding: 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.borderBox{
+  border: 1px solid lightgrey;
+  padding: 6px;
+  border-radius: 6px;
+  height: 100%;
+}
+.margin-0 {
+  margin: 0px;
+}
+.font-12{
+  font-size: 12px;
+}
+
+
+
+input {
+  border: 1px solid #CCC;
+  font-size: 1em;
+  height: 40px;
+  border-radius: 4px;
+  width: 100%;
+  transition: border 0.2s ease-out;
+  display: block;
+  margin: 0 auto 0.5em;
+  -webkit-appearance: none;
+  padding: 0px;
+}
+span {
+  font-size: 1em;
+}
+
+input:hover {
+  border: 1px solid #9B9B9B;
+}
+
+input:focus {
+  outline: none;
+}
+
+#url {
+  position: relative;
+  width: 100%;
+}
+
+#url span {
+  position: absolute;
+  top: 1px;
+  color: rgba(0, 0, 0, 0.3);
+  user-select: none;
+  background: lightgrey;
+  padding: 11px;
+}
+
+#username {
+  text-indent: 140px;
+  margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(0, 0, 0, 0.3);
+   padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(0, 0, 0, 0.3);
+}
+
+:-ms-input-placeholder {  
+   color: rgba(0, 0, 0, 0.3); 
+}
+
+.logoCls{
+  position: relative;
+  top: 12px;
+}
